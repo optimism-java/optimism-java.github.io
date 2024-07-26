@@ -33,7 +33,10 @@ jobs:
         with:
           path: site
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: site
+          clean: true
       - name: Save build cache
         uses: actions/cache/save@v4
         with:
