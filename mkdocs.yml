@@ -1,0 +1,25 @@
+site_name: Optimism Java
+site_url: https://optimism-java.github.io
+
+# Repository
+repo_url: https://github.com/optimism-java
+repo_name: OP-Java
+
+
+# Configuration
+theme:
+  name: material
+  logo: assets/images/image.png
+  palette:
+    primary: red
+  features:
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+# Page tree
+nav:
+  - Home: index.md
+  - Getting started:
+    - Run Hildr: start_hildr.md
+    - Run Op-Besu: start_op_besu.md
