@@ -13,13 +13,29 @@ theme:
   palette:
     primary: red
   features:
+    - announce.dismiss
     - content.code.copy
+    - navigation.indexes
+    - navigation.tabs
   icon:
     repo: fontawesome/brands/github
+
+# Extensions
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 # Page tree
 nav:
   - Home: index.md
-  - Getting started:
-    - Run Hildr: start_hildr.md
-    - Run Op-Besu: start_op_besu.md
+  - Hildr:
+    - hildr/index.md
+    - Run a Hildr node:
+      - Use the jar: hildr/use_jar.md
+      - Use docker: hildr/use_docker.md
+  - Op-Besu:
+    - op-besu/index.md
+    - Run a Op-Besu node:
+      - Use the packaged bianries: op-besu/use_binaries.md
+      - Use Docker: op-besu/use_docker.md
