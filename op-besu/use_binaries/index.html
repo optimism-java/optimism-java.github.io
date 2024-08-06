@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://optimism-java.github.io/start_op_besu/">
+        <link rel="canonical" href="https://optimism-java.github.io/op-besu/use_binaries/">
       
       
-        <link rel="prev" href="../start_hildr/">
+        <link rel="prev" href="../">
       
       
+        <link rel="next" href="../use_docker/">
       
-      <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
     
     
       
-        <title>Run Op-Besu - Optimism Java</title>
+        <title>Use the packaged bianries - Optimism Java</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -70,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#start-op-besu" class="md-skip">
+        <a href="#use-the-packaged-binaries" class="md-skip">
           Skip to content
         </a>
       
@@ -82,13 +84,11 @@
     
       
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Optimism Java" class="md-header__button md-logo" aria-label="Optimism Java" data-md-component="logo">
+    <a href="../.." title="Optimism Java" class="md-header__button md-logo" aria-label="Optimism Java" data-md-component="logo">
       
-  <img src="../assets/images/image.png" alt="logo">
+  <img src="../../assets/images/image.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Run Op-Besu
+              Use the packaged bianries
             
           </span>
         </div>
@@ -176,6 +176,74 @@
       
         
           
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../hildr/" class="md-tabs__link">
+          
+  
+    
+  
+  Hildr
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  Op-Besu
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -189,12 +257,14 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Optimism Java" class="md-nav__button md-logo" aria-label="Optimism Java" data-md-component="logo">
+    <a href="../.." title="Optimism Java" class="md-nav__button md-logo" aria-label="Optimism Java" data-md-component="logo">
       
-  <img src="../assets/images/image.png" alt="logo">
+  <img src="../../assets/images/image.png" alt="logo">
 
     </a>
     Optimism Java
@@ -221,7 +291,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -238,36 +308,99 @@
       
   
   
-    
   
   
-  
     
     
+      
+        
+          
+        
+      
+        
+      
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../hildr/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Hildr
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Hildr
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    Getting started
+    Run a Hildr node
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
-            Getting started
+            Run a Hildr node
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -278,11 +411,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../start_hildr/" class="md-nav__link">
+      <a href="../../hildr/use_jar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Run Hildr
+    Use the jar
   </span>
   
 
@@ -291,6 +424,149 @@
   
 
               
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hildr/use_docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use docker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Op-Besu
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Op-Besu
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Run a Op-Besu node
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Run a Op-Besu node
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -312,7 +588,7 @@
           
   
   <span class="md-ellipsis">
-    Run Op-Besu
+    Use the packaged bianries
   </span>
   
 
@@ -323,7 +599,7 @@
         
   
   <span class="md-ellipsis">
-    Run Op-Besu
+    Use the packaged bianries
   </span>
   
 
@@ -345,16 +621,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#run-on-optimism-sepolia" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run on Optimism Sepolia
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Run on Optimism Sepolia">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
       Prerequisites
@@ -362,8 +628,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#install-from-packaged-binaries" class="md-nav__link">
     <span class="md-ellipsis">
       Install from packaged binaries
@@ -371,58 +637,11 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#run-a-node" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run a node
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#run-with-docker-on-optimism-sepolia" class="md-nav__link">
+  <a href="#run-a-op-besu-node" class="md-nav__link">
     <span class="md-ellipsis">
-      Run with docker on Optimism Sepolia
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Run with docker on Optimism Sepolia">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pull-docker-image" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pull docker image
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#run-a-node-with-docker" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run a node with docker
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run-on-other-network" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run on other network
+      Run a Op-Besu node
     </span>
   </a>
   
@@ -431,6 +650,35 @@
     </ul>
   
 </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use_docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Docker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -471,16 +719,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#run-on-optimism-sepolia" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run on Optimism Sepolia
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Run on Optimism Sepolia">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
       Prerequisites
@@ -488,8 +726,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#install-from-packaged-binaries" class="md-nav__link">
     <span class="md-ellipsis">
       Install from packaged binaries
@@ -497,58 +735,11 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#run-a-node" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run a node
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#run-with-docker-on-optimism-sepolia" class="md-nav__link">
+  <a href="#run-a-op-besu-node" class="md-nav__link">
     <span class="md-ellipsis">
-      Run with docker on Optimism Sepolia
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Run with docker on Optimism Sepolia">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pull-docker-image" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pull docker image
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#run-a-node-with-docker" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run a node with docker
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run-on-other-network" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run on other network
+      Run a Op-Besu node
     </span>
   </a>
   
@@ -572,65 +763,50 @@
   
 
 
-<h1 id="start-op-besu">Start Op-Besu</h1>
-<p>A fork of <a href="https://github.com/hyperledger/besu">Besu</a> that supports the <a href="https://github.com/ethereum-optimism/specs/blob/main/specs/fjord/exec-engine.md">execution engine</a> of <a href="https://stack.optimism.io/">OP stack</a>.
-The document will introduce how to start a Op-Besu node using packaged binaries and Docker.</p>
-<h2 id="run-on-optimism-sepolia">Run on Optimism Sepolia</h2>
-<h3 id="prerequisites">Prerequisites</h3>
+<h1 id="use-the-packaged-binaries">Use the packaged binaries</h1>
+<p>You can install the Op-besu or Op-geth client to run a Optimism EL node from a binary distribution.</p>
+<h2 id="prerequisites">Prerequisites</h2>
 <p><a href="https://www.oracle.com/java/technologies/downloads/">Java JDK 21+</a></p>
-<h3 id="install-from-packaged-binaries">Install from packaged binaries</h3>
+<h2 id="install-from-packaged-binaries">Install from packaged binaries</h2>
 <p>Download the Op Besu <a href="https://github.com/optimism-java/op-besu/releases">packaged binaires</a>.</p>
-<p>Unpack the downloaded files and change into the <code>besu-&lt;release&gt;</code> directory.</p>
-<h3 id="run-a-node">Run a node</h3>
-<pre><code class="language-shell">cd besu-&lt;release&gt; &amp;&amp; \
-./bin/besu \
---network=OP_SEPOLIA \
---p2p-enabled=false \
---discovery-enabled=false \
---data-path=&lt;your data dir&gt; \
---engine-rpc-enabled \
---engine-jwt-secret=&lt;jwt secret file&gt; \
---rpc-http-enabled \
---host-allowlist=* \
---engine-host-allowlist=* \
---logging=INFO \
---version-compatibility-protection=false
-</code></pre>
-<h2 id="run-with-docker-on-optimism-sepolia">Run with docker on Optimism Sepolia</h2>
-<h3 id="pull-docker-image">Pull docker image</h3>
-<pre><code class="language-shell">docker pull docker pull ghcr.io/optimism-java/op-besu:latest
-</code></pre>
-<h3 id="run-a-node-with-docker">Run a node with docker</h3>
-<pre><code class="language-shell">docker run -it -p 8545:8545 -p 8551:8551 -v &lt;you jwt secret&gt;:/jwt/jwtsecret \
-ghcr.io/optimism-java/op-besu:latest -- \
---network=OP_SEPOLIA \
---p2p-enabled=false \
---discovery-enabled=false \
---data-path=&quot;/data/&quot; \
---engine-rpc-enabled \
---engine-jwt-secret=&quot;/jwt/jwtsecret&quot; \
---rpc-http-enabled \
---host-allowlist=&quot;*&quot; \
---engine-host-allowlist=&quot;*&quot; \
---logging=INFO \
---version-compatibility-protection=false
-</code></pre>
-<p>docker run -it -p 8545:8545 -p 8551:8551 -v <you jwt secret>:/jwt/jwtsecret \
-4b7ab2b50a39 \
---network=OP_SEPOLIA \
---p2p-enabled=false \
---discovery-enabled=false \
---engine-rpc-enabled \
---engine-jwt-secret="/jwt/jwtsecret" \
---rpc-http-enabled \
---host-allowlist="<em>" \
---engine-host-allowlist="</em>" \
---logging=INFO \
---version-compatibility-protection=false</p>
-<h2 id="run-on-other-network">Run on other network</h2>
-<p>If you want to run on the anyother network, you first need to prepare the genesis.json file, then remove the <code>network</code> parameter from the command line and add it as the <code>genesis-file</code> parameter:</p>
-<pre><code class="language-shell">--genesis-file=&lt;devnet genesis file&gt;
-</code></pre>
+<p>Unpack the downloaded files and change into the <code>op-besu-&lt;release&gt;</code> directory.</p>
+<h2 id="run-a-op-besu-node">Run a Op-Besu node</h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">op sepolia</label><label for="__tabbed_1_2">devnet or other</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>op-besu-&lt;release&gt;<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+./bin/besu<span class="w"> </span><span class="se">\</span>
+--network<span class="o">=</span>OP_SEPOLIA<span class="w"> </span><span class="se">\</span>
+--p2p-enabled<span class="o">=</span><span class="nb">false</span><span class="w"> </span><span class="se">\</span>
+--discovery-enabled<span class="o">=</span><span class="nb">false</span><span class="w"> </span><span class="se">\</span>
+--data-path<span class="o">=</span>&lt;your<span class="w"> </span>data<span class="w"> </span>dir&gt;<span class="w"> </span><span class="se">\</span>
+--engine-rpc-enabled<span class="w"> </span><span class="se">\</span>
+--engine-jwt-secret<span class="o">=</span>&lt;jwt<span class="w"> </span>secret<span class="w"> </span>file&gt;<span class="w"> </span><span class="se">\</span>
+--rpc-http-enabled<span class="w"> </span><span class="se">\</span>
+--host-allowlist<span class="o">=</span>*<span class="w"> </span><span class="se">\</span>
+--engine-host-allowlist<span class="o">=</span>*<span class="w"> </span><span class="se">\</span>
+--logging<span class="o">=</span>INFO<span class="w"> </span><span class="se">\</span>
+--version-compatibility-protection<span class="o">=</span><span class="nb">false</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>op-besu-&lt;release&gt;<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+./bin/besu<span class="w"> </span><span class="se">\</span>
+--genesis-file<span class="o">=</span>&lt;devnet<span class="w"> </span>genesis<span class="w"> </span>file&gt;<span class="w"> </span><span class="se">\</span>
+--p2p-enabled<span class="o">=</span><span class="nb">false</span><span class="w"> </span><span class="se">\</span>
+--discovery-enabled<span class="o">=</span><span class="nb">false</span><span class="w"> </span><span class="se">\</span>
+--data-path<span class="o">=</span>&lt;your<span class="w"> </span>data<span class="w"> </span>dir&gt;<span class="w"> </span><span class="se">\</span>
+--engine-rpc-enabled<span class="w"> </span><span class="se">\</span>
+--engine-jwt-secret<span class="o">=</span>&lt;jwt<span class="w"> </span>secret<span class="w"> </span>file&gt;<span class="w"> </span><span class="se">\</span>
+--rpc-http-enabled<span class="w"> </span><span class="se">\</span>
+--host-allowlist<span class="o">=</span>*<span class="w"> </span><span class="se">\</span>
+--engine-host-allowlist<span class="o">=</span>*<span class="w"> </span><span class="se">\</span>
+--logging<span class="o">=</span>INFO<span class="w"> </span><span class="se">\</span>
+--version-compatibility-protection<span class="o">=</span><span class="nb">false</span>
+</code></pre></div>
+</div>
+</div>
+</div>
 
 
 
@@ -677,10 +853,10 @@ ghcr.io/optimism-java/op-besu:latest -- \
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.code.copy", "navigation.indexes", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
   </body>
