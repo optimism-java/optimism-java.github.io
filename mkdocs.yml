@@ -32,10 +32,10 @@ nav:
   - Hildr:
     - hildr/index.md
     - Run a Hildr node:
-      - Use the jar: hildr/use_jar.md
-      - Use docker: hildr/use_docker.md
+      - Use the jar: hildr-repo/use_jar.md
+      - Use docker: hildr-repo/use_docker.md
   - Op-Besu:
-    - op-besu/index.md
+    - op-besu-repo/index.md
     - Run a Op-Besu node:
-      - Use the packaged bianries: op-besu/use_binaries.md
-      - Use Docker: op-besu/use_docker.md
+      - Use the packaged bianries: op-besu-repo/use_binaries.md
+      - Use Docker: op-besu-repo/use_docker.md
