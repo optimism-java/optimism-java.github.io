@@ -30,12 +30,12 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Hildr:
-    - hildr/index.md
+    - hildr_repo/index.md
     - Run a Hildr node:
-      - Use the jar: hildr-repo/use_jar.md
-      - Use docker: hildr-repo/use_docker.md
+      - Use the jar: hildr_repo/use_jar.md
+      - Use docker: hildr_repo/use_docker.md
   - Op-Besu:
-    - op-besu-repo/index.md
+    - op_besu_repo/index.md
     - Run a Op-Besu node:
-      - Use the packaged bianries: op-besu-repo/use_binaries.md
-      - Use Docker: op-besu-repo/use_docker.md
+      - Use the packaged bianries: op_besu_repo/use_binaries.md
+      - Use Docker: op_besu_repo/use_docker.md
