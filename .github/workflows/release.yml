@@ -16,9 +16,6 @@ jobs:
     steps:
       - name: Checkout tools repo
         uses: actions/checkout@v4
-        with:
-          repository: Consensys/docs-gha
-          path: .docs-gha
 
       - name: Get additional Github env vars # vars from Github env, can not be modified by users
         uses: FranzDiebold/github-env-vars-action@v2
