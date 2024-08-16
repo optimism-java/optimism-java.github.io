@@ -1,4 +1,4 @@
-# Introdution
+# Introduction
 We continue to contribute public goods to help the Ethereum and Optimism community get better and better.
 
 ## Our Works

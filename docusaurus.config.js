@@ -280,13 +280,9 @@ const config = {
         containerId: "GTM-TB58STH",
       },
     ],
-    [
-      "@docusaurus/plugin-client-redirects",
-      {
-        redirects: [
-        ],
-      },
-    ],
+    // [
+    //   "@docusaurus/plugin-client-redirects",{}
+    // ],
   ],
   stylesheets: [
     {
