@@ -7,16 +7,43 @@ on:
       - main
 
 jobs:
-  build:
-    name: Build
+  release:
+    name: Release
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Build
-        uses: Consensys/docs-gha/release@main
+      - name: Checkout tools repo
+        uses: actions/checkout@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          repository: Consensys/docs-gha
+          path: .docs-gha
+
+      - name: Get additional Github env vars # vars from Github env, can not be modified by users
+        uses: FranzDiebold/github-env-vars-action@v2
+
+      - name: Read .nvmrc
+        shell: bash
+        run: echo "NODE_VERSION=$(cat .nvmrc)" >> $GITHUB_OUTPUT
+        id: nvm
+
+      - name: Use Node.js ${{ steps.nvm.outputs.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ steps.nvm.outputs.NODE_VERSION }}
+          registry-url: https://registry.npmjs.org/
+
+      - name: npm build
+        shell: bash
+        run: |
+          npm ci --only=production
+          npm run build
+
+      - name: Deploy Preview
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: build # The folder the action should deploy.
+          clean: true
+          single-commit: true
