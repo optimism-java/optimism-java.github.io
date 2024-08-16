@@ -64,5 +64,8 @@
     "[^\n]+\\|",
     "\\|[^\n]+\\|[^\n]+\\|",
     "\\/img\\/socialCards\\/[\\w-]+\\.jpg"
+  ],
+  "ignoreWords": [
+    "Hildr"
   ]
 }

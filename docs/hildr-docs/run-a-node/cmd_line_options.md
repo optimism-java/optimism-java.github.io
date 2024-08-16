@@ -23,7 +23,7 @@ java --enable-preview -cp hildr-node.jar io.optimism.Hildr --help
 </TabItem>
 </Tabs>
 
-Specifys whether to start up a Hildr devnet node.
+Specify whether to start up a Hildr devnet node.
 
 ### `network`
 
@@ -88,7 +88,7 @@ The URL of the L1 Ethereum node that your Hildr node will connect to.
 </TabItem>
 </Tabs>
 
-The URL of the L1 Ethereum node that your Hildr node will connect to via Websockets.
+The URL of the L1 Ethereum node that your Hildr node will connect to via Websocket.
 
 ### `l1-beacon-url`
 

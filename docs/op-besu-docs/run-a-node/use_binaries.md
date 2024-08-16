@@ -10,7 +10,7 @@ You can install the Op-besu or Op-geth client to run a Optimism EL node from a b
 
 ## Install from packaged binaries
 
-Download the Op Besu [packaged binaires](https://github.com/optimism-java/op-besu/releases).
+Download the Op Besu [packaged binaries](https://github.com/optimism-java/op-besu/releases).
 
 Unpack the downloaded files and change into the `op-besu-<release>` directory.
 
