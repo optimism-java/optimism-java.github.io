@@ -425,11 +425,6 @@ lifecycles
 lifescore
 lightchaindata
 lighthouserc
-linea
-Lineabridge
-lineabuild
-lineascan
-Lineaster
 linenums
 linkify
 litepaper

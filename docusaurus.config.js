@@ -8,14 +8,13 @@ const katex = require("rehype-katex");
 // const baseUrl = isDev ? "/" : "/";
 
 // const organizationName = "Consensys";
-// const projectName = "doc.linea";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Optimism Java",
   // tagline:
   //"An EVM-equivalent network, scaling the Ethereum experience. Secured with a zero-knowledge rollup to Ethereum, built on lattice-based cryptography, and powered by Consensys.",
-  url: "https://docs.linea.build",
+  url: "https://optimism-java.github.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -74,14 +73,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // announcementBar: {
-      //   id: "announcement_bar",
-      //   content:
-      //     '📣 <strong>Linea ENS</strong> is now available! Visit the <a href="https://names.linea.build/" target="blank">app</a>, <a href="https://support.linea.build/general/ens" target="blank">user guide</a>, or our <a href="https://docs.linea.build/developers/tooling/cross-chain/ccip-read-gateway" target="blank">developer guidance</a> on reusing its architecture.',
-      //   backgroundColor: "#61dfff",
-      //   textColor: "#121212",
-      //   isCloseable: false,
-      // },
       colorMode: {
         defaultMode: "dark",
         disableSwitch: false,
@@ -117,49 +108,6 @@ const config = {
             position: "left",
             label: "Op-Besu",
           },
-          // {
-          //   type: "doc",
-          //   docId: "users/index",
-          //   position: "left",
-          //   label: "Users",
-          // },
-          // {
-          //   type: "doc",
-          //   docId: "developers/quickstart/index",
-          //   position: "left",
-          //   label: "Developers",
-          // },
-          // {
-          //   type: "doc",
-          //   docId: "architecture/index",
-          //   position: "left",
-          //   label: "Architecture",
-          // },
-          // { can add this section back if we want it
-          //   type: "dropdown",
-          //   label: "Tutorials",
-          //   position: "left",
-          //   items: [
-          //     {
-          //       label: "Community Guides",
-          //       to: "blog",
-          //     },
-          //     {
-          //       label: "ZK Glossary",
-          //       to: "/zero-knowledge-glossary",
-          //     },
-          //   ],
-          // },
-          // {
-          //   to: "/developers/guides/run-a-node",
-          //   position: "left",
-          //   label: "Run a node",
-          // },
-          // {
-          //   to: "/developers/linea-version",
-          //   position: "right",
-          //   label: "Release notes",
-          // },
           {
             href: "https://discord.gg/qHK3Vj4j",
             className: "header-discord-link",
@@ -178,21 +126,17 @@ const config = {
           {
             title: "Links",
             items: [
-              // {
-              //   label: "Linea homepage",
-              //   href: "https://linea.build/",
-              // },
-              // {
-              //   label: "Network status",
-              //   href: "https://linea.statuspage.io/",
-              // },
+              {
+                label: "homepage",
+                href: "https://optimism-java.github.io/",
+              },
               // {
               //   label: "Dispute Game mainnet block explorer",
-              //   href: "https://lineascan.build",
+              //   href: "https://todo.build",
               // },
               // {
               //   label: "Dispute Game Sepolia block explorer",
-              //   href: "https://sepolia.lineascan.build",
+              //   href: "https://sepolia.todo.build",
               // },
             ],
           },
@@ -203,14 +147,6 @@ const config = {
                 label: "Join our Discord",
                 href: "https://discord.gg/qHK3Vj4j",
               },
-              // {
-              //   label: "Get support",
-              //   to: "https://support.linea.build/",
-              // },
-              // {
-              //   label: "Give feedback",
-              //   to: "https://community.linea.build/c/feedback",
-              // },
             ],
           },
           {
@@ -239,9 +175,7 @@ const config = {
         ],
       },
       metadata: [
-        { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:image", content: "/img/Linea_social_card_docs.png" },
-        { property: "og:image", content: "/img/Linea_social_card_docs.png" },
+        { name: "twitter:card", content: "summary_large_image" }
       ],
       languageTabs: [
         {

@@ -1,22 +1,20 @@
-# Linea documentation
+# Optimism Java documentation
 
-[Linea](https://linea.build/) is a developer-ready layer 2 network, scaling Ethereum by providing
-an Ethereum-equivalent environment in which to execute transactions, which are then submitted to
-Ethereum Mainnet through a zero-knowledge rollup.
+Optimism Java is a organization which contribute public goods to help the Ethereum and Optimism community get better and better.
 
 This documentation repository is built using [Docusaurus](https://docusaurus.io/), and the site
-itself is published at [`docs.linea.build`](https://docs.linea.build/).
+itself is published at [`optimism-java.github.io`](https://optimism-java.github.io/).
 
 See [more](https://docs-template.consensys.net/) information about how Consensys uses Docusaurus.
 
 ## Contribute to the docs
 
-See something missing? Error in our documentation? Create an issue [here](https://github.com/Consensys/doc.linea/issues).
+See something missing? Error in our documentation? Create an issue [here](https://github.com/optimism-java/optimism-java.github.io).
 
-Alternatively, help us improve our documentation! [Fork our repo](https://github.com/ConsenSys/doc.linea/fork),
+Alternatively, help us improve our documentation! [Fork our repo](https://github.com/optimism-java/optimism-java.github.io/fork),
 create a pull request, and tag us for review! (for help on this, see [below](#how-to-submit-a-suggestion-or-change)).
 
-Take a look at some [good first issues](https://github.com/ConsenSys/doc.linea/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+Take a look at some [good first issues](https://github.com/optimism-java/optimism-java.github.io?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 to get started.
 
 ### How to submit a suggestion or change
@@ -24,35 +22,13 @@ to get started.
 The best way to suggest a change to these docs is through a process known as a **pull request**.
 If you're not familiar with how that works, check out [GitHub's guide here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
-If you do intend to submit a pull request, please open an issue first, and [link to it in your pull request](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue). **This is particularly important if you are an ecosystem contributor** —
-submitting your details in an issue first will make it much easier for our docs team to process your
+If you do intend to submit a pull request, please open an issue first, and [link to it in your pull request](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue). **This is particularly important if you are an ecosystem contributor** — submitting your details in an issue first will make it much easier for our docs team to process your
 contributions.
 
-If that process is too involved for you, you can always open a thread on the [Community forum](https://community.linea.build/),
-or a ticket on the [Support page](https://support.linea.build/hc/en-us).
+
 
 If you are familiar with making a pull request, we **highly recommend that you run a version of these docs locally, and preview your changes locally, before submitting them**.
 In fact, it's part of the PR process.
-
-### Contribute to community tutorials
-
-If you've created fleshed-out guides and tutorials, or intend to, we'd love to feature your content
-in our [community tutorials section](developers/guides/community).
-
-First, create an issue describing the content you want to see added or intend to add. If you're
-representing an organization (such as a dapp), please use the ecosystem contribution issue form.
-
-When you're ready to start work, [fork our repo](https://github.com/Consensys/doc.linea/fork),
-create a pull request, and tag us for review!
-
-### Contribute to the Zero-Knowledge Glossary
-
-Diving into zero-knowledge rollups and getting stumped by the technical jargon? We've started an
-open source Zero-Knowledge glossary to define some common terms you might encounter as you dive
-into the L2 landscape.
-
-[Fork our repo](https://github.com/Consensys/doc.linea/fork), and add a term in alphabetical
-order to `docs/reference/glossary.md`. Then, make a pull request and tag us for review!
 
 ### Additional Resources
 
