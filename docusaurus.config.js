@@ -180,9 +180,7 @@ const config = {
           "python",
         ],
       },
-      metadata: [
-        { name: "twitter:card", content: "summary_large_image" }
-      ],
+      metadata: [{ name: "twitter:card", content: "summary_large_image" }],
       languageTabs: [
         {
           highlight: "bash",

@@ -2,7 +2,7 @@ import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
 
 # Installation
 
-Super-proof is open source and you can run your own instance either locally or publically exposed on the Internet.
+Super-proof is open source and you can run your own instance either locally or publicly exposed on the Internet.
 
 # Requirements
 

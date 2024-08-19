@@ -66,6 +66,8 @@
     "\\/img\\/socialCards\\/[\\w-]+\\.jpg"
   ],
   "ignoreWords": [
-    "Hildr"
+    "Hildr",
+    "meili",
+    "Linea"
   ]
 }
