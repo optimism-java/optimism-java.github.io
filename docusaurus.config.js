@@ -109,6 +109,12 @@ const config = {
             label: "Op-Besu",
           },
           {
+            type: "doc",
+            docId: "super-proof-docs/index",
+            position: "left",
+            label: "Super-proof",
+          },
+          {
             href: "https://discord.gg/qHK3Vj4j",
             className: "header-discord-link",
             position: "right",

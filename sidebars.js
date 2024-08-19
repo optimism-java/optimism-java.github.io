@@ -34,6 +34,34 @@ const sidebars = {
       ],
     },
   ],
+  superProofSidebar: [
+    "super-proof-docs/index",
+    {
+      type: "category",
+      collapsed: true,
+      label: "Introduction",
+      link: {
+        type: "doc",
+        id: "super-proof-docs/introduction/index",
+      },
+      items: [
+        "super-proof-docs/introduction/features",
+        "super-proof-docs/introduction/installation",
+      ],
+    },
+    {
+      type: "category",
+      collapsed: true,
+      label: "run a node",
+      link: {
+        type: "doc",
+        id: "super-proof-docs/run-a-node/index",
+      },
+      items: [
+        "super-proof-docs/run-a-node/use_docker",
+      ],
+    },
+  ],
 };
 
 module.exports = sidebars;
