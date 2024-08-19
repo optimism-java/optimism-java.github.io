@@ -52,13 +52,13 @@ const sidebars = {
     {
       type: "category",
       collapsed: true,
-      label: "run a node",
+      label: "deployment",
       link: {
         type: "doc",
-        id: "super-proof-docs/run-a-node/index",
+        id: "super-proof-docs/deployment/index",
       },
       items: [
-        "super-proof-docs/run-a-node/use_docker",
+        "super-proof-docs/deployment/use_docker",
       ],
     },
   ],
