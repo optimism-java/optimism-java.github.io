@@ -35,18 +35,18 @@ const sidebars = {
     },
   ],
   superProofSidebar: [
-    "super-proof-docs/index",
+    "superproof-docs/index",
     {
       type: "category",
       collapsed: true,
       label: "Introduction",
       link: {
         type: "doc",
-        id: "super-proof-docs/introduction/index",
+        id: "superproof-docs/introduction/index",
       },
       items: [
-        "super-proof-docs/introduction/features",
-        "super-proof-docs/introduction/installation",
+        "superproof-docs/introduction/features",
+        "superproof-docs/introduction/installation",
       ],
     },
     {
@@ -55,10 +55,10 @@ const sidebars = {
       label: "deployment",
       link: {
         type: "doc",
-        id: "super-proof-docs/deployment/index",
+        id: "superproof-docs/deployment/index",
       },
       items: [
-        "super-proof-docs/deployment/use_docker",
+        "superproof-docs/deployment/use_docker",
       ],
     },
   ],

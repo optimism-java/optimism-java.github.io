@@ -8,7 +8,7 @@ You can use Docker to run dispute explorer backend service [Dispute-explorer](ht
 
 Download and install [Docker](https://www.docker.com/products/docker-desktop).
 
-# Run Super-proof backend Step-by-Step
+# Run Superproof backend Step-by-Step
 
 # Step 1. Config Environment file
 

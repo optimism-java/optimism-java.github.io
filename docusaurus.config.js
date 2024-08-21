@@ -110,9 +110,9 @@ const config = {
           },
           {
             type: "doc",
-            docId: "super-proof-docs/index",
+            docId: "superproof-docs/index",
             position: "left",
-            label: "Super-proof",
+            label: "Superproof",
           },
           {
             href: "https://discord.gg/YC34UKyc2Y",
