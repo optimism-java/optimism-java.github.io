@@ -5,8 +5,10 @@ image: /img/socialCards/hildr.jpg
 
 # Hildr
 
-Hildr is an OP Stack rollup client written in Java 21. And follow the [spec](https://github.com/ethereum-optimism/optimism/blob/develop/specs/rollup-node.md):
+Hildr is an OP Stack Rollup Node written in Java 21. You can check out the [architecture](https://docs.optimism.io/builders/node-operators/architecture) of OP Stack, hildr is the equivalent of op-node.
 
-[Magi](https://github.com/a16z/magi)
+:::note
 
-[Op-node](https://github.com/ethereum-optimism/optimism/tree/develop/op-node)
+Running a sequencer node is currently not possible and there is no option to vote on blocks as part of the consensus mechanism or fork-choice like on Ethereum.
+
+:::

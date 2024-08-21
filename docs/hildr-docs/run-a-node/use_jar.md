@@ -4,11 +4,15 @@ import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
 
 ## Prerequisites
 
-[Java JDK 21+](https://www.oracle.com/java/technologies/downloads/)
+Download and install the [Java JDK 21+](https://www.oracle.com/java/technologies/downloads/).
 
-## Download the Hildr jar
+## Step1. Download the Hildr jar
 
-Download the [Hildr jar](https://github.com/optimism-java/hildr/releases).
+Download the [Hildr jar](https://github.com/optimism-java/hildr/releases) from Github.
+
+```shell
+wget https://github.com/optimism-java/hildr/releases/download/v0.4.4/hildr-node.jar
+```
 
 ## Start a Hildr node
 
