@@ -120,6 +120,11 @@ const config = {
             position: "right",
           },
           {
+            href: "https://x.com/optimism_java",
+            className: "header-twitter-link",
+            position: "right",
+          },
+          {
             href: "https://github.com/optimism-java",
             className: "header-github-link",
             position: "right",
