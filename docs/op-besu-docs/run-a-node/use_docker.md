@@ -1,5 +1,9 @@
 import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
 
+# Use docker
+
+You can use Docker to run [Op-Besu](https://github.com/optimism-java/op-besu) as an Optimism EL node on the testnets.
+
 ## Prerequisites
 
 Download and install [Docker](https://docs.docker.com/get-started/get-docker/).
@@ -25,7 +29,7 @@ openssl rand -hex 32 > jwt.txt
 mkdir datadir 
 ```
 
-## Start a Op-Besu node
+## Start a Op-besu node
 
 <Tabs>
   <TabItem value="op sepolia" label="op sepolia" default>

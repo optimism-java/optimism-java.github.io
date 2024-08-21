@@ -106,7 +106,7 @@ const config = {
             type: "doc",
             docId: "op-besu-docs/index",
             position: "left",
-            label: "Op-Besu",
+            label: "Op-besu",
           },
           {
             type: "doc",
@@ -115,7 +115,7 @@ const config = {
             label: "Super-proof",
           },
           {
-            href: "https://discord.gg/qHK3Vj4j",
+            href: "https://discord.gg/YC34UKyc2Y",
             className: "header-discord-link",
             position: "right",
           },
@@ -151,7 +151,7 @@ const config = {
             items: [
               {
                 label: "Join our Discord",
-                href: "https://discord.gg/qHK3Vj4j",
+                href: "https://discord.gg/YC34UKyc2Y",
               },
             ],
           },

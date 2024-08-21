@@ -22,7 +22,7 @@ const sidebars = {
     {
       type: "category",
       collapsed: true,
-      label: "Run a Op-Besu node",
+      label: "Run an Op-besu node",
       link: {
         type: "doc",
         id: "op-besu-docs/run-a-node/index",

@@ -6,7 +6,7 @@ We have currently developed two important components of Optimism:
 
 [Hildr](https://github.com/optimism-java/hildr) is an optimism rollup client written in Java.
 
-[Op-Besu](https://github.com/optimism-java/op-besu) is an optimism execution client written in Java, a fork of [Besu](https://github.com/hyperledger/besu).
+[Op-besu](https://github.com/optimism-java/op-besu) is an optimism execution client written in Java, a fork of [Besu](https://github.com/hyperledger/besu).
 
 
 ## Our Vision
