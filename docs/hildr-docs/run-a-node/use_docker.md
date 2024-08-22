@@ -2,12 +2,20 @@ import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
 
 # Use docker
 
-You can use Docker to run [Hildr](https://github.com/optimism-java/hildr) as an Optimism CL node.
+You can use Docker to run [Hildr](https://github.com/optimism-java/hildr) as an Optimism rollup node.
 
 ## Pull docker image
 
 ```shell
 docker pull ghcr.io/optimism-java/hildr:latest
+```
+
+## Copy in the JWT secret
+
+Copy the JWT secret you generated when start execution client.
+
+```bash
+cp /path/to/jwt.txt .
 ```
 
 ## Start a Hildr node
