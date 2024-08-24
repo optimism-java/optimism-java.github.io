@@ -62,6 +62,9 @@ const sidebars = {
       ],
     },
   ],
+  blobArchiverRs: [
+    "blob-archiver-rs-docs/index",
+  ],
 };
 
 module.exports = sidebars;
