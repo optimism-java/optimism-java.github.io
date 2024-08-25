@@ -121,12 +121,6 @@ const config = {
             label: "Blob-arhiver-rs",
           },
           {
-            type: "doc",
-            docId: "blob-archiver-rs-docs/index",
-            position: "left",
-            label: "Blob-arhiver-rs",
-          },
-          {
             href: "https://discord.gg/YC34UKyc2Y",
             className: "header-discord-link",
             position: "right",
