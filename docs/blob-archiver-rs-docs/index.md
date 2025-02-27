@@ -1,3 +1,4 @@
+import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
 # blob-archiver-rs
 This is a Rust implementation of
 the [Beacon Chain blob archiver](https://github.com/base/blob-archiver)
