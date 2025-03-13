@@ -1,6 +1,6 @@
 import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
 
-# Use docker
+# Use Docker
 
 You can use Docker to run [Op-Besu](https://github.com/optimism-java/op-besu) as an Optimism EL node on the testnets.
 
@@ -8,7 +8,7 @@ You can use Docker to run [Op-Besu](https://github.com/optimism-java/op-besu) as
 
 Download and install [Docker](https://docs.docker.com/get-started/get-docker/).
 
-## Pull docker image
+## Pull Docker image
 
 ```shell
 docker pull ghcr.io/optimism-java/op-besu:latest
