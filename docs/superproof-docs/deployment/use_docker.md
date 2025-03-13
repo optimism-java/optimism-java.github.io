@@ -1,6 +1,6 @@
 import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
 
-# Use docker
+# Use Docker
 
 You can use Docker to run dispute explorer backend service [Dispute-explorer](https://github.com/optimism-java/dispute-explorer).
 
