@@ -122,7 +122,8 @@ launch the meiliSync service
 
 ```
 cd deploy
-docker-compose -f docker-compose-meiliSearch up -d meiliSync
+docker-compose -f docker-compose-meiliSearch.yml up -d meiliSync
+
 ```
 
 # Step 5. Validate meiliSync Service
