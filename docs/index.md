@@ -16,6 +16,6 @@ In addition, we have also developed OP Stack related tools.
 
 Meanwhile, we also contributed in other community projects.
 
-- [Shisui](https://github.com/optimism-java/shisui) is an ethereum portal network client written in Go.
+- [Shisui](https://github.com/optimism-java/shisui) is an Ethereum portal network client written in Go.
 
 - [Mev-share-java](https://github.com/optimism-java/mev-share-java) is a Java client library for Flashbots MEV-share Matchmaker.
