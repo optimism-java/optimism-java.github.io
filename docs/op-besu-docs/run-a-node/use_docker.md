@@ -29,7 +29,7 @@ openssl rand -hex 32 > jwt.txt
 mkdir datadir 
 ```
 
-## Start a Op-besu node
+## Start an Op-besu node
 
 <Tabs>
   <TabItem value="op sepolia" label="op sepolia" default>
