@@ -13,7 +13,7 @@ Download and install [Docker](https://www.docker.com/products/docker-desktop).
 # Step 1. Config Environment file
 
 ```
-mv .env.template .evn
+mv .env.template .env
 ```
 
 ```
