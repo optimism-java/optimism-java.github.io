@@ -14,7 +14,7 @@ In order to run Superproof you need a virtual machine with these minimum specs:
 
 Additionally you need to connect to an Ethereum node.
 
-# Use docker to launch a backend node
+# Use Docker to launch a backend node
 
 You can refer to Superproof  [README.md](https://github.com/optimism-java/dispute-explorer/blob/main/README.md)
 
