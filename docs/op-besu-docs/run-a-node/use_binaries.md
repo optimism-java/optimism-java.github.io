@@ -58,6 +58,7 @@ mkdir datadir
     ```shell
     ./bin/besu \
     --network=OP_SEPOLIA \
+    --sync-mode=FULL \
     --p2p-enabled=false \
     --discovery-enabled=false \
     --data-path=datadir \
@@ -79,6 +80,7 @@ Also you could use the [optimism devnet tool](https://github.com/ethpandaops/opt
     ```shell
     ./bin/besu \
     --genesis-file=<devnet genesis file> \
+    --network-id=<network id>
     --p2p-enabled=false \
     --discovery-enabled=false \
     --data-path=datadir \
