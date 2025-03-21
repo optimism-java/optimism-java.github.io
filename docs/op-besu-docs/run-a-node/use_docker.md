@@ -89,41 +89,42 @@ The following settings are a security risk in production environments:
 
 :::
 
-## Start Hildr node to sync L2 state
+## Start op-node to sync L2 state
 
-After starting the Op-Besu node, you can start the Hildr node to sync state.
+After starting the Op-Besu node, you can start the op-node to sync state.
 
 Pull docker image of hildr:
 
 ```shell
-docker pull ghcr.io/optimism-java/hildr:latest
+docker pull us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node:v1.12.2
 ```
 
-Get IP of the op-besu container, and hildr container will use it to connect to op-besu via the docker bridge:
+Get IP of the op-besu container, and op-node container will use it to connect to op-besu via the docker bridge:
 
 ```shell
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' op-besu
 ```
 
-Start Hildr node:
+Start op-node node:
 
 ```shell
-docker run -d -it --name hildr -p 11545:11545 \
--v ./jwt.txt:/jwt/jwtsecret \
-ghcr.io/optimism-java/hildr:latest \
---network optimism-sepolia \
---jwt-file /jwt/jwtsecret \
---l1-rpc-url <l1_sepolia_rpc_url> \
---l1-ws-rpc-url <l1_sepolia_ws_rpc_url> \
---l1-beacon-url <l1_beacon_chain_sepolia_rpc_url> \
---l2-rpc-url <op_besu_rpc> \
---l2-engine-url <op_besu_engine_rpc> \
---rpc-port 11545 \
---log-level INFO \
---sync-mode full
+docker run -d -it --name op-node -p 11545:11545 \
+-v ./jwt.txt:/jwt/jwt.txt \
+--entrypoint op-node \
+us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node:v1.12.2 \
+--network op-sepolia \
+--l1.rpckind=basic \
+--l1=<l1-rpc-url> \
+--l2=<op-besu-engine-rpc-url> \
+--rpc.addr=0.0.0.0 \
+--rpc.port=11545 \
+--l2.jwt-secret=/jwt/jwt.txt \
+--l1.trustrpc \
+--l1.beacon=<l1-beacon-sepolia-rpc-url> \
+--syncmode=consensus-layer
 ```
 
-The synchronization needs to handle empty messages at the beginning, and the actual block synchronization will take place about 10 minutes later.
+The synchronization needs to handle empty messages at the beginning, and the actual block synchronization will take place about 15 minutes later.
 
 For example, use curl get block data from op-besu:
 
