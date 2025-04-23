@@ -3,7 +3,7 @@
 * **Game Search Capabilities** - look up dispute game by their dispute game contract address
 
 
-* **Dashboard** - Learn more about the metrics of dispute games and the challenge path of a particular game.View diverse charts and metrics.
+* **Dashboard** - Learn more about the metrics of dispute games and the challenge path of a particular game. View diverse charts and metrics.
 
 
 * **Dispute Game API** - dispute explorer API facilitates queries on games, their associated blocks and transactions, and relevant statistics and metrics.
