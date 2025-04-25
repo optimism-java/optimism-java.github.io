@@ -20,7 +20,7 @@ besu [OPTIONS] [SUBCOMMAND]
 
   For example, set --miner-coinbase using the BESU_MINER_COINBASE environment variable.
 
-## Require Options
+## Required Options
 
 ### `network`
 
